@@ -1,0 +1,30 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.plan
+crash.log
+
+# Packer
+packer_cache/
+manifest.json
+
+# Ansible
+*.retry
+*.log
+__pycache__/
+*.pyc
+
+# Jenkins
+workspace/
+builds/
+logs/
+*.log
+*.tmp
+
+# General
+*.bak
+*.swp
+*.swo
+*.tmp
+.DS_Store
